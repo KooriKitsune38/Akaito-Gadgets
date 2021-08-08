@@ -1,0 +1,33 @@
+{
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "items": [
+                            "carrot_on_a_stick"
+                        ],
+                        "nbt": "{a.Gadget:Hook}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "offhand": {
+                        "items": [
+                            "carrot_on_a_stick"
+                        ],
+                        "nbt": "{a.Gadget:Hook}"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick{a.Gadget:Hook,display:{Name:'{"text":"Grappling Hook","italic": false, "color": "#00E3FF"}'}, CustomModelData:11} 1

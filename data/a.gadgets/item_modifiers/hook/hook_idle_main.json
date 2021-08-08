@@ -1,0 +1,20 @@
+{
+    "conditions": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "items": [
+                            "carrot_on_a_stick"
+                        ],
+                        "nbt": "{a.Gadget:Hook}"
+                    }
+                }
+            }
+        }
+    ],
+    "function": "set_nbt",
+    "tag": "{CustomModelData:3801}"
+}
