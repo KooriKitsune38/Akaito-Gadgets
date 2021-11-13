@@ -1,0 +1,44 @@
+[
+    {
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "a.gadgets:database"
+        },
+        "ops": [
+            {
+                "source": "Users[0].portalStorage.blocks.loc1[1].nbt.CustomName",
+                "target": "CustomName",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "a.gadgets:database"
+        },
+        "ops": [
+            {
+                "source": "Users[0].portalStorage.blocks.loc1[1].nbt.Items",
+                "target": "Items",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "a.gadgets:database"
+        },
+        "ops": [
+            {
+                "source": "Users[0].portalStorage.blocks.loc1[1].nbt.Lock",
+                "target": "Lock",
+                "op": "replace"
+            }
+        ]
+    }
+]

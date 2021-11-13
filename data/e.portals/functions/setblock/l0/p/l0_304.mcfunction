@@ -1,0 +1,6 @@
+execute if score block bsc matches 9522 run setblock ~ ~ ~ minecraft:shulker_box[facing=north]
+execute if score block bsc matches 9523 run setblock ~ ~ ~ minecraft:shulker_box[facing=east]
+execute if score block bsc matches 9524 run setblock ~ ~ ~ minecraft:shulker_box[facing=south]
+execute if score block bsc matches 9525 run setblock ~ ~ ~ minecraft:shulker_box[facing=west]
+execute if score block bsc matches 9526 run setblock ~ ~ ~ minecraft:shulker_box[facing=up]
+execute if score block bsc matches 9527 run setblock ~ ~ ~ minecraft:shulker_box[facing=down]
