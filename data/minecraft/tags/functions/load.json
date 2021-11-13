@@ -1,5 +1,6 @@
 {
     "values":[
-        "e.portals:reload"
+        "e.portals:reload",
+        "a.gadgets:reload"
     ]
 }

@@ -1,5 +1,6 @@
 {
     "values":[
-        "e.portals:main"
+        "e.portals:main",
+        "a.gadgets:main"
     ]
 }
