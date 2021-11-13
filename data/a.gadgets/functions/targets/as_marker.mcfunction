@@ -4,4 +4,4 @@
 #> Search Player
 execute if entity @s[tag=a.Hook] run function a.gadgets:gadgets/hook/search_player
 #> Particles
-execute if entity @s[tag=a.hookParticles] run particle dust 0.278 0.192 0 1 ~ ~ ~ .1 .1 .1 0 1 force
+execute if entity @s[tag=a.hookParticles] run particle electric_spark ~ ~ ~ .02 .02 .02 0 1 force

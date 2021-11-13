@@ -4,7 +4,7 @@
 tp @s ~ ~ ~ ~ ~
 
 # Particles
-particle electric_spark ~ ~ ~ 0 0 0 0 1 force
+particle dust 0.373 0.373 0.373 .4 ~ ~ ~ 0 0 0 0 1 force
 
 # Add Distance
 scoreboard players add @s a.hookRayDist 1

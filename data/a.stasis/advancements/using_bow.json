@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "no_u":{
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "bow"
+                    ],
+                    "nbt": "{a.Gadget:Stasis}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "a.stasis:used_stasis"
+    }
+}

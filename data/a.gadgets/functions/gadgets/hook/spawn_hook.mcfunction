@@ -11,6 +11,12 @@ playsound entity.fishing_bobber.throw player @a ~ ~ ~
 tag @s add a.spawnedHook
 tag @s add a.takeUUID
 
+# Remove Durability
+#> Add usage
+scoreboard players add @s[gamemode=!creative] a.itemDurability 1
+#> If more than 5 usages remove 1 durability
+execute if score @s a.itemDurability matches 5.. run function a.gadgets:gadgets/hook/remove_durability
+
 # Spawn Marker
 summon marker ^ ^ ^ {Tags:[a.Hook,a.notUUIDed]}
 

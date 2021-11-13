@@ -1,8 +1,5 @@
 #> a.gadgets:as_everyone
 
-# Can Sign In
-execute store success score @s a.canSignIn if data storage a.gadgets:database Status[{Online:1b}]
-
 # Used carrot stick
 execute if score @s a.rightClick matches 1.. run function a.gadgets:right.click/clicked
 

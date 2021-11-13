@@ -23,4 +23,9 @@ data modify storage a.gadgets:database Status[] set value {Online:1b}
 data modify storage a.gadgets:database Users prepend value {}
 data remove storage a.gadgets:database Users[0]
 
+# Can Sign In
+execute store success score @s a.canSignIn if data storage a.gadgets:database Status[{Online: 1b}]
+
+# Reload Message
+tellraw @a [{"text": "[Akaito] ","color": "#71feff"},{"text": "Datapack Reloaded","color": "#cde5fe"}]
 #advancement revoke @a only a.gadgets:retrieve_uuid

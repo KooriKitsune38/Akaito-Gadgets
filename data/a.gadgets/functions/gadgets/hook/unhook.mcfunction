@@ -4,6 +4,9 @@
 item modify entity @s weapon.mainhand a.gadgets:hook/hook_idle_main
 item modify entity @s weapon.offhand a.gadgets:hook/hook_idle_off
 
+# Effects
+effect give @s slow_falling 1 0 true
+
 # Remove Tags
 tag @s remove a.goToHook
 tag @s remove a.spawnedHook

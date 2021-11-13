@@ -1,6 +1,7 @@
 {
     "values":[
         "e.portals:reload",
-        "a.gadgets:reload"
+        "a.gadgets:reload",
+        "a.stasis:reload"
     ]
 }

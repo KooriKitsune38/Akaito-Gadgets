@@ -1,10 +1,10 @@
 #> a.gadgets:gadgets/hook/hook_to_block
 
-# Add tag
-tag @s add a.takeUUID
-
 # Summon Marker Particles
 summon marker ^ ^ ^.05 {Tags:[a.Hook,a.notUUIDed,a.hookParticles]}
+
+# Tag @s
+tag @s add a.takeUUID
 
 # Set UUID
 execute as @e[type=marker,limit=1,sort=nearest,distance=..1,tag=a.hookParticles,tag=a.notUUIDed] run function a.gadgets:gadgets/hook/uuid_particle_marker

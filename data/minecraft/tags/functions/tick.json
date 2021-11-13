@@ -1,6 +1,7 @@
 {
     "values":[
         "e.portals:main",
-        "a.gadgets:main"
+        "a.gadgets:main",
+        "a.stasis:main"
     ]
 }
