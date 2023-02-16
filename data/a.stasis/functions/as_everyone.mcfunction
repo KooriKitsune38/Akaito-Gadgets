@@ -4,7 +4,7 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:bow",tag:{a.Gadget:Stasis}
 clear @s[nbt=!{SelectedItem:{id:"minecraft:bow",tag:{a.Gadget:Stasis}}}] arrow{a.temp:1b}
 
 # Used bow
-execute if score @s a.stasisUsedBow matches 1.. run function a.stasis:used_bow
+execute if score @s[nbt={SelectedItem:{id:"minecraft:bow",tag:{a.Gadget:Stasis}}}] a.stasisUsedBow matches 1.. run function a.stasis:used_bow
 
 # Stand tp
 scoreboard players operation .tempUUID a.UUIDs = @s a.UUIDs
